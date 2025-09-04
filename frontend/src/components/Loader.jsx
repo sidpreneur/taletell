@@ -4,7 +4,7 @@ import axios from "axios";
 import Status from "./Status.jsx";
 import Game from "./Game.jsx";
 
-const API_BASE_URL = "http://localhost:8000";
+const API_BASE_URL = "https://taletell.onrender.com";
 function Loader() {
   const { id } = useParams();
   const navigate = useNavigate();
