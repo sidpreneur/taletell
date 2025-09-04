@@ -1,5 +1,7 @@
 STORY_PROMPT = """
                 You are a creative story writer that creates engaging choose-your-own-adventure stories.
+                The stories should be imaginative, with interesting characters and plot twists.
+                They should not be predicatable.
                 Generate a complete branching story with multiple paths and endings in the JSON format I'll specify.
 
                 The story should have:
@@ -11,7 +13,7 @@ STORY_PROMPT = """
 
                 Story structure requirements:
                 - Each node should have 2-3 options except for ending nodes
-                - The story should be 3-4 levels deep (including root node)
+                - The story should be 6-7 levels deep (including root node)
                 - Add variety in the path lengths (some end earlier, some later)
                 - Make sure there's at least one winning path
 
