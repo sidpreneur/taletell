@@ -4,7 +4,8 @@ import axios from "axios";
 import Input from "./Input.jsx";
 import Status from "./Status.jsx";
 
-const API_BASE_URL = "http://localhost:8000";
+const API_BASE_URL = "https://taletell.onrender.com";
+
 
 function StoryGen() {
     const navigate = useNavigate()
