@@ -3,8 +3,9 @@ import {useNavigate} from "react-router-dom";
 import axios from "axios";
 import Input from "./Input.jsx";
 import Status from "./Status.jsx";
+import {API_BASE_URL} from "../util.js";
 
-const API_BASE_URL = "http://localhost:8000";
+
 
 function StoryGen() {
     const navigate = useNavigate()
